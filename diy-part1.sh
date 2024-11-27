@@ -18,7 +18,4 @@
 #echo 'src-git passwall_packages https://github.com/lxiaya/openwrt-passwall-packages.git;main' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main' >>feeds.conf.default
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main' >>feeds.conf.default
-sed -i '1,2d' feeds.conf.default
-echo 'src-git packages https://git.openwrt.org/feed/packages.git;openwrt-23.05' >>feeds.conf.default
-echo 'src-git luci https://git.openwrt.org/project/luci.git;openwrt-23.05' >>feeds.conf.default
 echo 'net.netfilter.nf_conntrack_max=65536' >>package/kernel/linux/files/sysctl-nf-conntrack.conf
