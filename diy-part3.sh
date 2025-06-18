@@ -24,4 +24,4 @@ git clone https://github.com/orgx2812/xray-core feeds/packages/net/xray-core
 #sudo rm -rf feeds/packages/net/chinadns-ng
 #sudo rm -rf feeds/luci/applications/luci-app-homeproxy
 sudo rm -rf feeds/packages/lang/golang
-git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+git clone https://github.com/orgx2812/golang feeds/packages/lang/golang
